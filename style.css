@@ -1,0 +1,91 @@
+body {
+    background-color: #020202;
+    color: #f1f1f1;
+    font-family: 'Roboto Mono', monospace;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: 24px;
+    color: #f5ca3e;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+ background-color: #e0e0e0;
+ width: 20rem;
+ border: 2px solid #222222;
+ border-radius: 16px;
+ padding: 2rem;
+}
+.box-inputEOperadores {
+    display: flex;
+    align-items: flex-end;
+    height: 12rem;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding-right: 1rem;
+    width:  60%;
+    
+}
+input {
+    width: 8rem;
+    height: 5rem;
+    margin: .5rem auto;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 2px solid #d3d1d1;
+    border-radius: 8px;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.operadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 30%;
+    height: 50%;
+
+}
+button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 20px;
+    color: #f1f1f1;
+    background-color: #010101;
+    border: 2px solid #010101;
+    border-radius: 50%;
+}
+button:hover {
+    background-color: #f5ca3e;
+    border: 2px solid #f5ca3e;
+    color: #030303;
+}
+.linha {
+    width: 100%;
+    border: 2px solid #000000;
+    margin: 1rem 0;
+
+}
+.box-resultado {
+    font-size: 28px;
+    color: #000000;
+    height: 2rem;
+
+
+}
